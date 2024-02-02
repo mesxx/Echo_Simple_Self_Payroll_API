@@ -1,8 +1,9 @@
 package postgres
 
 import (
-	"echo_simple_self_payroll_api/model"
 	"os"
+
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/model"
 
 	"github.com/rs/zerolog/log"
 	"gorm.io/driver/postgres"

@@ -2,8 +2,9 @@ package model
 
 import (
 	"context"
-	"echo_simple_self_payroll_api/request"
 	"time"
+
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/request"
 )
 
 type (

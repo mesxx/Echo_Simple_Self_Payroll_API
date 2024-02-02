@@ -1,9 +1,10 @@
 package config
 
 import (
-	"echo_simple_self_payroll_api/config/postgres"
 	"os"
 	"strconv"
+
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/config/postgres"
 
 	"gorm.io/gorm"
 )

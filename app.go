@@ -1,13 +1,14 @@
 package main
 
 import (
-	"echo_simple_self_payroll_api/config"
-	"echo_simple_self_payroll_api/delivery"
-	"echo_simple_self_payroll_api/repository"
-	"echo_simple_self_payroll_api/usecase"
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/config"
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/delivery"
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/repository"
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/usecase"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

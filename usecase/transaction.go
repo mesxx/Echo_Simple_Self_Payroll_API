@@ -2,8 +2,9 @@ package usecase
 
 import (
 	"context"
-	"echo_simple_self_payroll_api/model"
 	"net/http"
+
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/model"
 )
 
 type transactionUsecase struct {

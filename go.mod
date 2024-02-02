@@ -1,6 +1,6 @@
-module echo_simple_self_payroll_api
+module github.com/mesxx/Echo_Simple_Self_Payroll_API
 
-go 1.21.5
+go 1.21.6
 
 require (
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
@@ -9,7 +9,7 @@ require (
 	github.com/labstack/gommon v0.4.2
 	github.com/rs/zerolog v1.31.0
 	gorm.io/driver/postgres v1.5.4
-	gorm.io/gorm v1.25.5
+	gorm.io/gorm v1.25.6
 )
 
 require (

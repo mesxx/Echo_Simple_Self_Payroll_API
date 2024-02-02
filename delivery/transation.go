@@ -1,9 +1,10 @@
 package delivery
 
 import (
-	"echo_simple_self_payroll_api/helper"
-	"echo_simple_self_payroll_api/model"
 	"strconv"
+
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/helper"
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/model"
 
 	"github.com/labstack/echo/v4"
 )

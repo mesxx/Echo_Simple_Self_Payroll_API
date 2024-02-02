@@ -1,8 +1,9 @@
 package main
 
 import (
-	"echo_simple_self_payroll_api/config"
 	"sync"
+
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/config"
 
 	"github.com/joho/godotenv"
 	"github.com/labstack/gommon/log"

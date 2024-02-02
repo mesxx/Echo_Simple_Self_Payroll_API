@@ -1,9 +1,9 @@
 package delivery
 
 import (
-	"echo_simple_self_payroll_api/helper"
-	"echo_simple_self_payroll_api/model"
-	"echo_simple_self_payroll_api/request"
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/helper"
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/model"
+	"github.com/mesxx/Echo_Simple_Self_Payroll_API/request"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/labstack/echo/v4"
